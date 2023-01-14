@@ -1,0 +1,276 @@
+body,html {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Roboto Condensed', sans-serif;
+  
+  
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+.big-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:1rem;
+  box-sizing: border-box;
+  background-color: #111;
+  color:rgba(206, 203, 203,0.5);
+}
+.box {
+  width: 30%;
+  height: 100%;
+  border-radius: 25px;
+  box-sizing: border-box;
+  padding:1rem;
+  box-shadow: 0 1rem 5rem -1rem rgba(0,0,0,0.5);
+  background-color: #222;
+}
+.f_box a {
+  text-decoration: none;
+  color:rgba(206, 203, 203,0.5);
+  cursor: pointer;
+}
+.box:last-child {
+  margin-left: 30px;
+}
+.f_box {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.s_box {
+  width: 100%;
+  height: 200px;
+  padding-top: 50px;
+  position: relative;
+  
+}
+.s_box .s_img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 0 1rem 5rem -1rem rgba(255,255,255,0.3);
+}
+.s_box .s_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.s_box h3{
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 30px;
+  font-weight:700;
+  color:#fff;
+}
+.s_box p {
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.5rem;
+  color: rgb(213, 211, 211);
+}
+.t_box {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.t_box .l_box {
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: black;
+  margin: 0 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  transition:background-color 1s;
+}
+.t_box .l_box:hover {
+  background-color: #fff;
+  color:#222;
+}
+.t_box .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: black;
+}
+.t_box .right span {
+  display: block;
+  margin:5px;
+  transition: color fav 1s;
+}
+.t_box .right:hover span:first-child{
+  color: red;
+  animation: fav 1s linear infinite ;
+}
+@keyframes fav {
+  from {
+    transform: rotateY(0deg);
+  }to{
+    transform: rotateY(360deg);
+  }
+}
+.fl_box,
+.ffl_box {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-color: #fff;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 0 1rem 5rem -1rem rgba(255,255,255,0.3);
+}
+.fl_box {
+  padding:1rem;
+}
+.fl_box .f_img {
+  width:30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  
+}
+.fl_box .f_img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.fl_box .f_text p{
+  font-size: 10px;
+  line-height: 15px;
+  color: rgb(88, 87, 87);
+}
+.fl_box .f_text h2 {
+  font-size: 20px;
+}
+
+.ffl_box {
+  background-color: black;
+  color: #fff;
+  padding: 1rem;
+  box-sizing: border-box;
+  margin-top: 25px;
+}
+.ffl_box .ff_text p{
+  font-size: 10px;
+}
+.ffl_box .ff_text h2 {
+  font-size: 20px;
+}
+
+/* 오른쪽 부분 */
+
+.b_img {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.b_img .bb_img {
+  width: 300px;
+  height: 300px;
+ border-radius: 25px;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 0 1rem 5rem -1rem rgba(255,255,255,0.3);
+}
+.b_img .bb_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.c_box  {
+  text-align: center;
+}
+.c_box h2 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 50px;
+  color: #fff;
+  font-weight: 700;
+}
+.c_box p{
+  font-size: 25px;
+  color: #fff;
+}
+.l_box {
+  margin-top: 30px;
+}
+.l_box .l_text {
+  display: flex;
+  justify-content: space-between;
+  color:rgb(206, 203, 203)
+}
+
+.l_box input {
+  width: 100%;
+  margin-bottom: 15px;
+
+}
+.last_box {
+  display: flex;
+  justify-content: space-between;
+}
+.last_box span{
+  display: block;
+  font-size: 30px;
+  margin-top: 20px;
+  color: #fff;
+}
+.last_box span:nth-child(3) {
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  color: #222;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 50%;
+  transform: translateY(-10px);
+}
+
+.last_box span:nth-child(1),
+.last_box span:nth-child(5){
+  color:rgba(206, 203, 203,0.5);
+ 
+}
+
+@media screen and (min-width:1560px) {
+
+  .s_box {
+  height: 250px;
+}
+.fl_box,
+.ffl_box {
+  margin-bottom: 15px;
+
+}
+}
+@media  screen and (max-width:640px) {
+
+  .box {
+  width: 50%;
+}
+}

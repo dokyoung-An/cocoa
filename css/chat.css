@@ -1,0 +1,57 @@
+@import "common.css";
+
+.container {
+    padding: 0.5rem;
+}
+.show {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    box-sizing: border-box;
+    background-color: rgb(75, 76, 76);
+}
+.f_box{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.big_box {
+    width: 100%;
+    height: auto;
+    
+    overflow: hidden;
+    
+}
+.big_box .comment {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    right: 0;
+   
+}
+.big_box .comment input {
+    display: block;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    
+}
+.big_box .comment input:first-child {
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+}
+.big_box .comment input:last-child {
+    width: 20%;
+    height: 40px;
+    border-radius: 25px;
+    z-index: 99;
+    position: fixed;
+    right: 0;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    
+}
